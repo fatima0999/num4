@@ -1,0 +1,31 @@
+
+    /*Selecciona todos los elementos <h1> (encabezado de nivel 1) en el documento HTML.
+    Aplica los siguientes estilos dentro de las llaves */
+    h1{
+        text-align: center;
+    }
+    /*Este es un selector compuesto que usa comas para apuntar a dos tipos de entrada diferentes:
+    input[type="text"]: Selecciona todos los elementos <input> con el atributo type establecido en "text" (campos de entrada de texto).*/
+    input[type="text"],
+    input[type="email"] {
+        background-color: aliceblue;/* Fondo de los inputs ligeramente más opaco que el formulario */
+        border:2cap black; /* Sin bordes */
+        border-bottom: 2px solid #fff; /* Borde inferior simulando un efecto de profundidad */
+        border-radius: 20px; /* Bordes ligeramente redondeados */
+        padding: 10px; /* Espacio interno para los textos */
+        margin-bottom: 1rem; /* Espacio entre los campos de texto */
+        width: calc(100% - 90px); /* Anchura completa menos el padding */
+        /* margin-left: 40px; */
+    }
+
+
+    /*Este selector CSS selecciona todos los elementos <input> en el documento HTML donde el atributo type está establecido en "button"*/
+    input[type="button"] {
+        background: rgba(255, 255, 255, 0.85); /* Fondo de los botones menos transparente */
+        border: 1px solid rgba(255, 255, 255, 0.6); /* Borde con transparencia */
+        border-radius: 20px; /* Bordes redondeados */
+        padding: 10px 20px; /* Espacio interno */
+        cursor: pointer; /* Cursor en forma de mano al pasar sobre el botón */
+        margin-right: 10px; /* Espacio entre los botones */
+        margin-left: 170px;
+    }
